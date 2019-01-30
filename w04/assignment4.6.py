@@ -16,4 +16,5 @@ def computepay(h,r):
         pay = (h*r)     
     return pay
 
-print computepay(hours,rate)
+PAY = computepay(hours,rate)
+print(PAY)
